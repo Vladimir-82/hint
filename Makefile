@@ -1,0 +1,3 @@
+.PHONY: typing
+typing:
+	mypy .
