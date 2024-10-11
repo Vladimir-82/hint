@@ -24,5 +24,5 @@ async def async_function2() -> str:
 
 
 run_async(async_function())
-# run_async(11)
-# run_async(async_function2())
+run_async(11)  # type: ignore
+run_async(async_function2())  # type: ignore

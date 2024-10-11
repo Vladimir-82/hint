@@ -15,4 +15,4 @@ def add(a: T, b: T) -> T:
 assert_type(add(1, 2), int)
 assert_type(add('1', '2'), str)
 assert_type(add(['1'], ['2']), List[str])
-# assert_type(add(1, '2'), int)
+assert_type(add(1, '2'), int)  # type: ignore

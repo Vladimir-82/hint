@@ -10,5 +10,5 @@ class Foo:
 
 
 Foo.bar = 1
-# Foo.bar = '1'
-# Foo().bar = 2
+Foo.bar = '1'  # type: ignore
+Foo().bar = 2  # type: ignore

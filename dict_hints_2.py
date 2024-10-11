@@ -23,4 +23,4 @@ example_1: Person = {
 }
 example_2: Person = {'name': 'Capy'}
 
-# example_3: Person = {'age': 1, 'gender': "'Male", 'address': '', 'email': ''}
+example_3: Person = {'age': 1, 'gender': "'Male", 'address': '', 'email': ''}  # type: ignore

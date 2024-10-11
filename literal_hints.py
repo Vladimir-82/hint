@@ -12,4 +12,4 @@ foo('left')
 foo('right')
 
 a = ''.join(['r', 'i', 'g', 'h', 't'])
-# foo(a)
+foo(a)  # type: ignore

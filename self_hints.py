@@ -20,4 +20,4 @@ class SubFoo(Foo):
 foo_1: Foo = Foo().return_self()
 foo_2: SubFoo = SubFoo().return_self()
 
-# foo_3: SubFoo = Foo.return_self()
+foo_3: SubFoo = Foo.return_self()  # type: ignore

@@ -18,6 +18,6 @@ def add(a: T) -> T:
 
 assert_type(add(1), int)
 assert_type(add(MyInt(1)), MyInt)
-# assert_type(add('1'), str)
-# add(['1'], ['2'])
-# add(['1', 2])
+assert_type(add('1'), str)  # type: ignore
+add(['1'], ['2'])  # type: ignore
+add(['1', 2])  # type: ignore

@@ -33,5 +33,5 @@ def new_name(name: str) -> str:
 
 accept_single_string_input(string_name)
 accept_single_string_input(string_value)
-# accept_single_string_input(int_value)
-# accept_single_string_input(new_name)
+accept_single_string_input(int_value)  # type: ignore
+accept_single_string_input(new_name)  # type: ignore

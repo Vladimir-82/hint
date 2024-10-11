@@ -10,4 +10,4 @@ class Foo:
 
 foo = Foo()
 foo.bar = 42
-# foo.bar = '1'
+foo.bar = '1'  # type: ignore

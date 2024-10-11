@@ -19,5 +19,5 @@ foo(**person)
 # foo(**{'name': 'Brian'})
 
 person2: dict[str, object] = {'name': 'Brian', 'age': 20}
-# foo(**person2)
-# foo(**{'name': 'Brian', 'age': '1979'})
+foo(**person2)  # type: ignore
+foo(**{'name': 'Brian', 'age': '1979'})  # type: ignore

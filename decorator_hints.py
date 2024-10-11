@@ -26,6 +26,6 @@ def bar(c: int, d: str) -> None:
 foo(1, b='2')
 bar(c=1, d='2')
 
-# foo(1, '2')
-# foo(a=1, e='2')
-# decorator(10)
+foo(1, '2')  # type: ignore
+foo(a=1, e='2')  # type: ignore
+decorator(10)  # type: ignore
