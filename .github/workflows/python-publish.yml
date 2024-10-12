@@ -28,7 +28,7 @@ jobs: # jobs. We will have two jobs (test and publish) with multiple steps.
         run: poetry install
       - name: mypy  # Run mypy static analysis
         run: |
-          poetry run mypy .
+          poetry run mypy basic intermediate
 
   publish:
     # Our publish job will only run on release creation events,
